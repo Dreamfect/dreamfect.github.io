@@ -15,6 +15,7 @@ theme:
     - toc.integrate
     - search.suggest
     - search.highlight
+  copyright: "© 2025 Dreamfect"
 
 nav:
   - Welcome: index.md
