@@ -1,11 +1,12 @@
 site_name: Dreamfect Docs
 site_url: https://dreamfect.github.io
-repo_url: https://dreamfect.github.io
+repo_url: https://github.com/dreamfect/dreamfect.github.io
 repo_name: GitHub
 edit_uri: edit/main/docs/
 
 theme:
   name: material
+  custom_dir: overrides
   logo: assets/logo.png          # Upload your logo to docs/assets/
   favicon: assets/favicon.ico    # Optional: small icon for browser tab
   features:
@@ -17,6 +18,9 @@ theme:
     - search.highlight
   copyright: "© 2025 Dreamfect"
 
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js
+  
 nav:
   - Welcome: index.md
   - Getting Started: getting-started.md
@@ -25,6 +29,9 @@ nav:
   # - Health Goals: health-goals.md
   - FAQ: faq.md
   - Terms: terms.md
+
+plugins:
+  - search
 
 markdown_extensions:
   - toc:
@@ -35,11 +42,23 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.superfences
 
+# extra:
+#   social:
+    # - icon: fontawesome/brands/github
+    #   link: https://github.com/your-username/dreamfect-docs
+    # - icon: fontawesome/brands/apple
+    #   link: https://apps.apple.com/us/app/dreamfect/id1619744155
+    # - icon: fontawesome/solid/globe
+    #   link: https://dreamfect.com
+
 extra:
   social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/your-username/dreamfect-docs
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/dreamfectapp
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/dreamfect.official
     - icon: fontawesome/brands/apple
       link: https://apps.apple.com/us/app/dreamfect/id1619744155
     - icon: fontawesome/solid/globe
       link: https://dreamfect.com
+
