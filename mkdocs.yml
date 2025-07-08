@@ -10,7 +10,7 @@ theme:
   logo: assets/logo.png          # Upload your logo to docs/assets/
   favicon: assets/favicon.ico    # Optional: small icon for browser tab
   features:
-    - navigation.instant
+    # - navigation.instant
     - navigation.sections
     - content.code.copy
     - toc.integrate
